@@ -10,3 +10,9 @@ root {
  color: white;
  font-size: 30px;
 }
+
+#countdown {
+    background-color: green;
+    width: 120px;
+    font-family: 'Times New Roman', Times, serif;
+}
