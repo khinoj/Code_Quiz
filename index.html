@@ -4,13 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Code Quiz</title>
+    <title>Quiz Game</title>
 </head>
 <body>
-    
+    <header>
+    <!-- highscore area -->
+
+    <!-- timer area -->
+    </header>
+    <div class="wrapper">
+        <div id="start-section" class="start">
+            <h1>Coding Quiz Challenge</h1>
+            <p> 
+                Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by 15 seconds!
+            </p>
+            <button id="startBtn">Start Quiz</button>
+        </div>
+
+        <div id="questions" class="hide">
+            <h2 id="question-header"></h2>
+            <div id="choices" class="choices"></div>
+        </div>
 
 
+    </div>
 
- <script src="./assets/js/script.js"></script>   
+    <script src="./assets/js/questions.js"></script>
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>
