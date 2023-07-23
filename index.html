@@ -9,13 +9,12 @@
 <body>
     <header>
     <!-- highscore area -->
-    <div>
-        <h2>HighScore!</h2>
+    <div id="headerDiv">
+        <button id="highScoreBtn">HighScore</button>
+        <!-- timer area -->
+        <h2 id="countdown">CountDown Timer!</h2>
     </div>
-    <!-- timer area -->
-    <div>
-        <h2 id="countdown"></h2>
-    </div>
+
     </header>
     <div class="wrapper">
         <div id="start-section" class="start">
@@ -26,11 +25,10 @@
             <button id="startBtn">Start Quiz</button>
         </div>
 
-        <div id="questions" class="hide">
-            <h2 id="question-header"></h2>
-            <div id="choices" class="choices"></div>
-        </div>
-
+        <section class="card-questions">
+            <div class="card-content"></div>
+            <div class="card-button"></div>
+        </section>
 
     </div>
     <script src="./assets/js/script.js"></script>
