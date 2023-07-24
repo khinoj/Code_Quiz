@@ -18,7 +18,7 @@ var questions = [
   {
     question: 'Which operator is used to assign a value to a variable?',
     choices: ['x', '*', '=', '-'],
-    answer: ['=']
+    answer: '='
   },
   {
     question: 'Which of the following statements will show a message as well as ask for user input in a popup?',
