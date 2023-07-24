@@ -98,3 +98,7 @@ function questionClick(event) {
   questionIndex++
   showNextQuestion();
 };
+
+function renderLastStorage(){
+  var initials = localStorage.getItem('')
+}
