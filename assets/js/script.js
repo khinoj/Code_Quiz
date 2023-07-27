@@ -4,6 +4,7 @@ var startSectionEl = document.getElementById('start-section');
 
 var questionIndex = 0;
 
+//array of objects?
 var questions = [
   {
     question: 'Inside which HTML element do we put the JavaScript?',
@@ -35,7 +36,7 @@ var questions = [
 var startGame = document.getElementById('startBtn');
 startGame.addEventListener('click', function () {
   startSectionEl.style.display = 'none';
-  var timeLeft = 100;
+  var timeLeft = 60;
   showNextQuestion()
   var timeInterval = setInterval(function () {
     if (timeLeft > 1) {
@@ -99,6 +100,6 @@ function questionClick(event) {
   showNextQuestion();
 };
 
-function renderLastStorage(){
-  var initials = localStorage.getItem('')
-}
+// function renderLastStorage(){
+//   var initials = localStorage.getItem('')
+// }
