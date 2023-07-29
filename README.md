@@ -20,9 +20,14 @@
 
 
 ## Screenshot
+![](./assets/img/code_img_1.PNG)
+![](./assets/img/code_img_2.PNG)
 
-
-## Reference
+## Tasks not complete
+* local storage issues
+* high score issues
 
 
 ## GitHub
+1. https://github.com/khinoj/Code_Quiz
+2. https://khinoj.github.io/Code_Quiz/
